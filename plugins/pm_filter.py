@@ -1016,7 +1016,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.SOURCE_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-)
+           )
 
 	elif query.data == "disclaimer":
             btn = [[
@@ -1029,7 +1029,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 text=(script.DISCLAIMER_TXT),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML 
-	    )
+       )
     elif query.data == "earn":
        buttons = [[
 	      InlineKeyboardButton('⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
