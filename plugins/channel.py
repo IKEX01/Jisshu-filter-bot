@@ -1,8 +1,3 @@
-# Credit - JISSHU BOTS
-# Modified By NBBotz
-# Some Codes Are Taken From A GitHub Repository And We Forgot His Name
-# Base Code Bishal
-
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from info import CHANNELS, MOVIE_UPDATE_CHANNEL, ADMINS , LOG_CHANNEL
@@ -82,7 +77,7 @@ async def send_movie_updates(bot, file_name, caption, file_id):
         btn = [[
             InlineKeyboardButton('📂 ɢᴇᴛ ғɪʟᴇ 📂', url=f'https://telegram.me/{temp.U_NAME}?start=getfile-{search_movie}')
         ],[
-            InlineKeyboardButton('♻️ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ♻️', url=f'https://t.me/JISSHU_BOTS')
+            InlineKeyboardButton('♻️ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ♻️', url=f'https://t.me/ignite_chatz')
         ]]
         reply_markup = InlineKeyboardMarkup(btn)
         if poster_url:
